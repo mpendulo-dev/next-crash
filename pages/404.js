@@ -6,7 +6,7 @@ const NotFound = () => {
 
     const router = useRouter();
     useEffect(() => {
-        //redicrect user on invalid link
+        //redirect user on invalid link
         setTimeout(() => {
             router.push('/');
         }, 3000)

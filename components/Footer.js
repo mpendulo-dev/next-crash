@@ -1,7 +1,9 @@
 const Footer = () => {
+    const date = new Date();
+    let currentYear = date.getFullYear();
     return (
         <footer>
-            Copyright Ninja List 2021
+            <span>Copyright Ninja Demo {currentYear}</span>
         </footer>
     )
 }

@@ -12,8 +12,7 @@ export default function Home() {
       <div>
           
         <h1 className={styles.title}>Home page</h1>
-          <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis hic, nulla facere itaque et vitae est ipsa ullam, amet natus beatae libero. Quas odio voluptate tenetur. Unde vero eveniet beatae?</p>
-          <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis hic, nulla facere itaque et vitae est ipsa ullam, amet natus beatae libero. Quas odio voluptate tenetur. Unde vero eveniet beatae?</p>
+          <p className={styles.text}>Below is a list of ninjas/users that we get from the JSON placeholder API, to make requests to the API we took advantage of NextJS SSR, so the data from the API fetched on initial page load</p>
           <Link href='/ninjas'>
           <a className={styles.btn}>See Ninja Listing</a>
           </Link>

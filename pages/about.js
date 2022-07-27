@@ -9,7 +9,7 @@ function about() {
             </Head>
             <div>
                 <h1>About</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium laborum veritatis minima fuga repellendus pariatur, ipsum aliquid? Dignissimos sapiente et voluptatem non aliquid omnis, eos harum eveniet molestias laboriosam!</p>
+                <p>Mock NextJS application that shows how the framework simplifies React and offers great speed with Server Side Rendering (SSR)</p>
             </div>
         </>
     )
